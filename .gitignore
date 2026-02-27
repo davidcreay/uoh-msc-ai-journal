@@ -308,6 +308,7 @@ dist/
 ## Assignments and private content (do not commit to public repo)
 _submissions/
 private/
+templates/assignment/
 # Path-based rules for any submissions left in original locations
 **/Assignment/*.docx
 modules/responsible-technology-2/My Account of Accessibility.docx
