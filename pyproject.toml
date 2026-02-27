@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "uoh-msi-ai-journal"
+version = "0.1.0"
+description = ""
+authors = ["David Reay <david.c.reay@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "msc_ai", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "*"
+colorama = "^0.4.6"
+rich = "^14.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
+
+[tool.poetry.scripts]
+msc-ai = "msc_ai.__main__:main"

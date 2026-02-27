@@ -1,0 +1,6 @@
+[user]
+    name = reayd-herts
+    email = dr25aar@herts.ac.uk
+	signingkey = 0937DA3DAEAAB7DB
+[core]
+	sshCommand = ssh -i ~/.ssh/herts
