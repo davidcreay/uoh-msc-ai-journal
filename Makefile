@@ -43,3 +43,10 @@ ASSIGNMENT_NAME?=
 assignment:
 	echo "Copying template to ...$(ASSIGNMENT_NAME)"
 	cp -rf templates/assignment $(ASSIGNMENT_NAME)
+
+checkin:
+	@echo "Enter commit message:"
+	@read REPLY; \
+	git add --all; \
+	git commit -m "$$REPLY"; \
+	git push
