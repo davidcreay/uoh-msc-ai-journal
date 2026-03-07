@@ -1,11 +1,9 @@
-# Journal (GitHub Wiki)
+# Learning Journal
 
-This folder is the source for the **GitHub wiki**. Push its contents to the wiki repo (e.g. `repo.wiki`) or use it as the wiki root.
+Reflections and progress notes by module. One file per unit (or per week); add dates in the content or filename as you like.
 
-- **Home.md** — Wiki home page.
-- **_Sidebar.md** — Sidebar shown on every wiki page; links to all modules and units.
-- **ml.md**, **responsible-technology-1.md**, **responsible-technology-2.md** — Module index pages.
-- **ml/** — Machine Learning unit pages (unit01–unit11).
-- **responsible-technology-1/**, **responsible-technology-2/** — Reflection pages.
+- [Machine Learning](ml/README.md) — units 1–11
+- [Responsible Technology 1](responsible-technology-1/README.md)
+- [Responsible Technology 2](responsible-technology-2/README.md)
 
-Link format in the wiki uses `[[page-name|label]]` (MediaWiki-style).
+Use the journal for "what I learned" and reflection; keep tasks and graded discussion text in the corresponding `modules/` folders.
